@@ -16,6 +16,13 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        if UserDefaults.standard.bool(forKey: "userLoggedIn") == true {
+            self.performSegue(withIdentifier: "loginToHome", sender: self)
+            
+        }
+    }
+    
     @IBAction func onLoginButton(_ sender: Any) {
         //Initialize URL to have clean code
         //We obtianed the URL from the API Twitter Developer website
@@ -23,6 +30,9 @@ class LoginViewController: UIViewController {
     
         //TwittweAPICaller is a build in funtion that can be foudn in the corespodning folder which allows teh button to connect to the API to retrieve token
         TwitterAPICaller.client?.login(url: myURL, success: {
+            
+            //
+            UserDefaults.standard.set(true, forKey: "userLoggedIn")
             //Perform Segue
             self.performSegue(withIdentifier: "loginToHome", sender: self)
         }, failure: { Error in
