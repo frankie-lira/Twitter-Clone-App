@@ -23,8 +23,12 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-1st Walkthrough shows the minimum requiremeents
+1st Walkthrough shows the minimum requirements
+
+
 <img src='http://g.recordit.co/IiNqblk2Y3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 2nd Walkthrough shows the implemented bonus features
+
+
 <img src='http://g.recordit.co/cGtHwpFqoR.gif' title='Bonus Video Walkthrough' width='' alt='Bonus Video Walkthrough' />
