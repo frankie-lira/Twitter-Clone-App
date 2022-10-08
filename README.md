@@ -28,6 +28,8 @@ Here's a walkthrough of implemented user stories:
 
 
 
+
+
 # Project 3 - Twitter Part 1
 
 Twitter is a basic twitter app to read your tweets.
@@ -46,8 +48,8 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] User can pull to refresh. (1pt)
-- [ ] User can load past tweets infinitely. (2pts)
+- [x] User can pull to refresh. (1pt)
+- [x] User can load past tweets infinitely. (2pts)
 
 ## Video Walkthrough
 
